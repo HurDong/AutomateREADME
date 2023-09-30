@@ -11,7 +11,7 @@ url = f'https://github.com/{userName}/{repository}'
 link = f'{url}/{branch}'
 
 # config local repo
-localDir = 'C:/git/' + repository
+localDir = 'C:\Users\ehd_a\Desktop\PROGRAMMING\ALGORITHM\' + repository
 repo = git.Repo(localDir)
 
 def pull():
